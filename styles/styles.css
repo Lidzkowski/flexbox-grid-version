@@ -24,6 +24,14 @@ img {
 	background: #BA907A;
 }
 
+.current {
+	border-bottom: 2px solid #BA907A;
+	}
+
+.small:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 /* HEADER */
 #main-header {
 	border-bottom: 1px solid #BA907A;
