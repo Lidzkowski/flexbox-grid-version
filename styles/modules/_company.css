@@ -1,0 +1,27 @@
+#company {
+	background-color: black;
+		color: white;
+	padding: 10px 0;
+}
+
+#company h4 {
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+#company ul {
+	padding: 0;
+	list-style: none;
+	line-height: 2em;
+}
+
+#company input[type="text"]{
+	padding: 7px;
+}
+
+#company button {
+	background: #BA907A;
+	color: white;
+	padding: 10px;
+	border: 0;
+}
