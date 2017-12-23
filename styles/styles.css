@@ -1,25 +1,24 @@
-@import 'modules/flexboxgrid.css';
-@import 'modules/_main.css';
-/* COMMON CLASSES */
-@import 'modules/_common_classes.css';
+@import "modules/flexboxgrid";
+@import "modules/_main";
+@import "modules/_common_classes";
 /* HEADER */
-@import 'modules/_header.css';
+@import 'modules/_header';
 /* NAVBAR */
-@import 'modules/_navbar.css';
+@import 'modules/_navbar';
 /* SHOWCASE */
-@import 'modules/_showcase.css';
+@import 'modules/_showcase';
 /* FEATURES */
-@import 'modules/_features.css';
+@import 'modules/_features';
 /* INFO */
-@import 'modules/_info.css';
+@import 'modules/_info';
 /* COMPANY */
-@import 'modules/_company.css';
+@import 'modules/_company';
 /* FOOTER */
-@import 'modules/_footer.css';
+@import 'modules/_footer';
 /* PAGE */
-@import 'modules/_page.css';
+@import 'modules/_page';
 /* PROJECTS */
-@import 'modules/_projects.css';
+@import 'modules/_projects';
 /* CONTACT */
-@import 'modules/_contact.css';
+@import 'modules/_contact';
 /* MEDIA QUERIES */
