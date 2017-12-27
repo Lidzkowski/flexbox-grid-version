@@ -1,8 +1,10 @@
 @import "modules/flexboxgrid.css";
+@import "modules/normalize.css";
 @import "modules/main.css";
 @import "modules/common_classes.css";
 /* HEADER */
 @import 'modules/header.css';
+@import 'modules/subheader.css';
 /* NAVBAR */
 @import 'modules/navbar.css';
 /* SHOWCASE */
@@ -22,3 +24,5 @@
 /* CONTACT */
 @import 'modules/contact.css';
 /* MEDIA QUERIES */
+@import 'modules/slideshow_gallery.css';
+
