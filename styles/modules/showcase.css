@@ -1,41 +1,19 @@
 #showcase {
-	background: url(../../images/office.jpg) no-repeat center center;
+	background: url(../../images/) no-repeat center center;
 	border-bottom: 1px solid #BA907A;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 #showcase .row {
-	height: 600px
+	height: 50vh;
 }
 
-#showcase h1 {
-	font-size: 50px;
-	margin: 0;
-	padding-bottom: 20px;
-	font-weight: 300;
+#showcase  .container {
+	overflow: hidden;
+	z-index: -1;
+	width: 100%;
 }
 
-#showcase p {
-	color: #595C53;
-	margin: 0;
-}
-
-#showcase .showcase-content {
-	background: #BCD5D1;
-	color: white;
-	border-radius: 90px;
-	padding: 40px;
-	opacity: 0.9;
-}
-
-@media(max-width:800px) {
-	#showcase h1 {
-		font-size: 30px;
-	}
-}
-
-@media(max-width:500px) {
-	#showcase .showcase-content{
-		padding: 40px 10px;
-	}
+#showcase img {
+	transform: scale(1.05);
 }

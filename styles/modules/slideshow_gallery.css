@@ -1,12 +1,13 @@
-img {
-	max-height: 75vh;
-}
-
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+.mySlides {
+	overflow: hidden;
+	z-index: -1;
 }
 
 /* Hide the images by default */

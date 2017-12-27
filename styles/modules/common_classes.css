@@ -7,7 +7,7 @@
 }
 
 .current {
-	border: 1px dotted #BA907A;
+	border-bottom: 2px solid #BA907A;
 	}
 
 .small:hover {

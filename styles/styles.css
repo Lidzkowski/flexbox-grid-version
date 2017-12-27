@@ -24,5 +24,7 @@
 /* CONTACT */
 @import 'modules/contact.css';
 /* MEDIA QUERIES */
+@import 'modules/showcase_slide.css';
 @import 'modules/slideshow_gallery.css';
+
 
