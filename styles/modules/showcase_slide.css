@@ -1,0 +1,22 @@
+.showcase-slideshow-container {
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.showcase-slideshow-container .content {
+	position: absolute; /* Position the background text */
+    bottom: 50%; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+		text-align: center;
+}
+
+.showcase-slideshow-container .content, h2, p {
+	font-weight: 200;
+}
+
+
+

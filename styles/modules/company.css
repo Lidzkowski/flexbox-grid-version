@@ -1,7 +1,8 @@
 #company {
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.8);
 		color: white;
 	padding: 10px 0;
+	font-size: .9rem;
 }
 
 #company h4 {
@@ -12,16 +13,10 @@
 #company ul {
 	padding: 0;
 	list-style: none;
-	line-height: 2em;
+	line-height: 1.5em;
 }
 
-#company input[type="text"]{
-	padding: 6px;
-}
-
-#company button {
-	background: #BA907A;
+#company a {
+	text-decoration: none;
 	color: white;
-	padding: 5px;
-	border: 0;
 }

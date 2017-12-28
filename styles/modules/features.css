@@ -2,6 +2,7 @@
 	font-size: 32px;
 	margin: 20px;
 	padding-bottom: 10px;
+	color: #595C53;
 }
 
 #features p {
@@ -18,3 +19,9 @@
 .row-icons {
 	margin: 50px 0;
 }
+
+#features .fa.main {
+	font-size: 30px;
+	color: #595C53;
+}
+
