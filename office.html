@@ -5,9 +5,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Meble Biurowe</title>
+	<title>ZAKŁAD o meble</title>
+	<!-- STYLES -->
 	<link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="//unpkg.com/flexboxgrid2">
+  <!-- FoNT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
 	<!-- FONT AWESOME -->
 	<script src="https://use.fontawesome.com/234b9f7dec.js"></script>
+	<!-- jQUERY	-->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
 </head>
 
 <body>
@@ -15,17 +23,19 @@
 	<!-- HEADER -->
 	<header id="main-header">
 		<div class="container">
-			<div class="row end-xs middle-xs middle-sm middle-md middle-lg center-xs">
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<h1 class="logo"><span class="primary-text">Zakład</span>OMeble</h1>
+			<div class="row middle-xs start-xs">
+				<div class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+					<h1 class="logo">ZAKŁAD o meble</h1>
 				</div>
-				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-					<nav id="navbar">
+				<div class="col-xs-10 col-sm-8 col-md-18 col-lg-8">
+					<nav id='cssmenu'>
+						<div id="head-mobile"></div>
+						<div class="button"></div>
 						<ul>
-							<li><a href="index.html">Wejście</a></li>
-							<li class="current"><a href="office.html">Meble biurowe <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+							<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Start</a></li>
+							<li class="active"><a href="office.html">Meble biurowe </a>
 								<ul>
-									<li><a href="office/office_1.html">Meble Pracownicze <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="office/office_1.html">Meble Pracownicze </a>
 										<ul>
 											<li><a href="office/evro.html">Evro</a></li>
 											<li><a href="office/idea.html">Idea</a></li>
@@ -34,7 +44,7 @@
 											<li><a href="office/victor.html">Victor</a></li>
 										</ul>
 									</li>
-									<li><a href="office/office_2.html">Meble gabinetowe <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="office/office_2.html">Meble gabinetowe</a>
 										<ul>
 											<li><a href="office/edo.html">Edo</a></li>
 											<li><a href="office/horus.html">Horus</a></li>
@@ -43,7 +53,7 @@
 											<li><a href="office/status_prosty.html">Status prosty</a></li>
 										</ul>
 									</li>
-									<li><a href="office/office_3.html">Meble do recepcji <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="office/office_3.html">Meble do recepcji </a>
 										<ul>
 											<li><a href="office/antra.html">Antra</a></li>
 											<li><a href="office/aristo.html">Aristo</a></li>
@@ -52,7 +62,7 @@
 											<li><a href="office/victor_rec.html">Victor</a></li>
 										</ul>
 									</li>
-									<li><a href="office/office_4.html">Meble hotelowe <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="office/office_4.html">Meble hotelowe </a>
 										<ul>
 											<li><a href="office/linus_hotel.html">Linus</a></li>
 											<li><a href="office/xenia.html">Xenia</a></li>
@@ -60,7 +70,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="house.html">Dom | Mieszkanie <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+							<li><a href="house.html">Dom | Mieszkanie </a>
 								<ul>
 									<li><a href="house/house_1.html">Kuchnia</a></li>
 									<li><a href="house/house_2.html">Przedpokój | Garderoba</a></li>
@@ -77,15 +87,18 @@
 			</div>
 		</div>
 	</header>
-
+	
 	<!-- SUBHEADER -->
 	<section id="subheader">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="row middle-xs">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 subh">
 					<h1>Meble Biurowe</h1>
 					<hr>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempore culpa laboriosam debitis saepe dolore iusto sint voluptates similique minima, laudantium beatae maxime numquam perferendis maiores, enim incidunt deleniti. Ducimus iste dolore at! Enim error itaque, voluptatum saepe tenetur, tempora consequatur quaerat officiis maxime minima? Ad corrupti eius, modi, ratione expedita provident assumenda facilis velit mollitia fugit, repellendus beatae obcaecati nobis ea molestiae officia. Nulla sed, nesciunt voluptatum delectus, fugit quod numquam. Laudantium labore dicta sed excepturi, autem nisi repellendus?</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 subh">
+					<img src="images/office.png" alt="">
 				</div>
 			</div>
 		</div>
@@ -130,26 +143,24 @@
 	<!-- COMPANY -->
 	<section id="company">
 		<div class="container">
-			<div class="row">
+			<div class="row center-xs start-sm">
 				<div class="col-xs-12 col-sm-4 col-md-4 col-slg-4">
-					<h4>Contact Us</h4>
+					<h4>Kontakt:</h4>
 					<ul>
-						<li><i class="fa fa-phone"></i>xx xxx xxx xxx</li>
+						<li><i class="fa fa-phone"></i>+48 660 672 585</li>
+						<li><i class="fa fa-phone"></i>+48 662 058 394</li>
 						<li><i class="fa fa-envelope"></i>biuro@zakladomeble.pl</li>
-						<li><i class="fa fa-map"></i>Piździałkowice</li>
+						<li><i class="fa fa-map"></i>Ul. Gałczyńskiego 18, 54-220 Wrocław</li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-slg-4">
-					<h4>About Us</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut facilis iusto modi sequi officia ad temporibus tempora</p>
+					<h4>Nasz Zespół:</h4>
+					<p>Magda Gawińska - Właściciel</p>
+					<p>Bożena Idźkowska - Projektant</p>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-slg-4">
-					<h4>Newsletter</h4>
-					<p>Lorem ipsum dolor sit amet</p>
-					<form>
-						<input type="text" name="email" placeholder="Enter Email">
-						<button type="submit" name="button">Submit</button>
-					</form>
+					<h4>Na skróty:</h4>
+					<p><a href="office.html">biuro</a> | <a href="office/office_1.html">pracownicze</a> | <a href="office/office_2.html">gabinet</a> | <a href="office/office_3.html">recepcja</a> | <a href="office/office_4.html">hotelowe</a> | <a href="house.html">dom</a> | <a href="house/house_1.html">kucnia</a> | <a href="house/house_2.html">przedpokój</a> | <a href="house/house_3.html">salon</a> | <a href="house/house_4.html">sypialnia</a> | <a href="house/house_5.html">łazienka</a></p>
 				</div>
 			</div>
 		</div>
@@ -158,12 +169,16 @@
 	<!-- FOOTER -->
 	<footer id="main-footer">
 		<div class="container">
-			<div class="row center-xs center-sm center-md center-lg">
+			<div class="row center-xs middle-xs">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
-				<p>Copyrights &copy; | Zakład O Meble</p>
+				<p>&copy; 2017 Zakład O Meble | All Rights Reserved. | Realizacja <a href="http://lukaszidzkowski.pl">Łukasz Idźkowski</a> </p>
+				<p></p>
 			</div>
 		</div>
 	</footer>
+	<!--CSS MENU SCRIPT-->
+	<script src="scripts/cssmenu.js"></script>
+	<!-- STICKY HEADER	-->
+	<script src="scripts/sticky.js"></script>
 </body>
-
 </html>

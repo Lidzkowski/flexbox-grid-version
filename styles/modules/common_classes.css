@@ -1,19 +1,4 @@
-.primary-text {
-	color: #BA907A;
-}
-
-.primary-background {
-	background: #BA907A;
-}
-
-.current {
-	border-bottom: 2px solid #BA907A;
-	}
-
 .small:hover {
 	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
 
-#main {
-	background: linear-gradient(to right, rgba(195,217,255,1) 0%,rgba(177,200,239,1) 54%,rgba(152,176,217,1) 100%);
-}

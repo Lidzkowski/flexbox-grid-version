@@ -4,8 +4,8 @@
 	
 }
 
-#info h2 {
-	font-size: 45px;
+#info h3 {
+	font-size: 1.5rem;
 	margin: 0;
 	padding-bottom: 10px;
 	color: darkslategray;
@@ -19,10 +19,28 @@
 
 #info li {
 	line-height: 2em;
-	font-size: 20px;
+	font-size: 1.1rem;
+	padding: 10px;
 }
 
 #info ul li a {
 	text-decoration: none;
 	color: #312C32;
+}
+
+@media(max-width:740px) {
+	
+	#info h3 {
+	font-size: 1rem;
+	margin: 0;
+	padding: 20px 10px;
+	color: darkslategray;
+}
+	
+	#info li {
+	line-height: 1em;
+	font-size: 1rem;
+	padding: 10px;
+}
+	
 }

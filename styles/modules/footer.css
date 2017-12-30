@@ -9,3 +9,15 @@
 	text-decoration: none;
 	color: aquamarine;
 }
+
+@media(max-width:740px) {
+	
+	#main-footer {
+	background: rgba(0, 0, 0, 0.9);
+	color: white;
+	font-size: .8rem;
+	height: 8vh;
+}
+
+	
+}

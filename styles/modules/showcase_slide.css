@@ -3,20 +3,27 @@
 	margin: 0 auto;
 	padding: 0;
 	z-index: -5;
+	width: 101%;
 }
 
 .showcase-slideshow-container .content {
 	position: absolute; /* Position the background text */
-    bottom: 40%; /* At the bottom. Use top:0 to append it to the top */
+    bottom: .8%; /* At the bottom. Use top:0 to append it to the top */
     background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    width: 100%; /* Full width */
+    width: 94.4%; /* Full width */
     padding: 40px; /* Some padding */
 		text-align: center;
+	overflow-x: hidden;
 }
 
-.showcase-slideshow-container .content, h2, p {
-	font-weight: 200;
+@media(max-width:740px) {
+	
+	.showcase-slideshow-container .content {
+		font-size: .7rem;
+		padding: 10px;
+		bottom: 2%;
+	}
 }
 
 

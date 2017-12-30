@@ -1,4 +1,37 @@
-#subheader a {
-	color: #BA907A;
-	text-decoration: none;
+#subheader {
+	margin-bottom: -50px;
+	}
+
+#subheader .subh {
+	padding:30px;
+}
+
+#subheader h1 {
+	font-size: 2rem;
+}
+
+#subheader p {
+	font-size: 1rem;
+	padding: 10px
+}
+
+@media(max-width:1000px) {
+	
+	#subheader {
+		padding-top: 20px;
+	}
+
+	#subheader h1 {
+		font-size: 1.5rem;
+	}
+
+	#subheader p {
+		font-size: .8rem;
+	}
+	
+	#subheader.subh {
+		padding: 10px 10px;
+}
+
+
 }
