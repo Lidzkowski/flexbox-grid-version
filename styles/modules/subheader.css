@@ -1,13 +1,18 @@
 #subheader {
-	margin-bottom: -50px;
+	}
+
+#subheader .row {
+	height: 60vh;
 	}
 
 #subheader .subh {
+
 	padding:30px;
 }
 
 #subheader h1 {
 	font-size: 2rem;
+	padding: 10px
 }
 
 #subheader p {
@@ -32,6 +37,9 @@
 	#subheader.subh {
 		padding: 10px 10px;
 }
+	#subheader .row {
+	height: auto;
+	}
 
 
 }

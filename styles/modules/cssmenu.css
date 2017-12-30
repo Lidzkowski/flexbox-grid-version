@@ -1,10 +1,11 @@
 *{margin:0;padding:0;text-decoration:none}
 header{position:relative;width:100%;background:#333;text-transform: ;height:auto;}
 .sticky {
+	max-height: 10vh;
 	position: fixed;
   top: 0;
   width: 100%;
-	opacity: .9;
+	opacity: .8;
 }
 
 .logo{font-family:'Roboto', sans-serif;position:relative;z-index:123;font-size:2rem;color:white;float:left;width:55%;text-align: center;font-weight: 100; line-height: 2rem; letter-spacing: .5rem}
