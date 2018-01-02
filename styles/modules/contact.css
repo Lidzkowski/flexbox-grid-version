@@ -1,14 +1,25 @@
-.contact form {
-	background: #BCD5D1;
+#subheader ul {
+	list-style: none;
 	padding: 20px;
 }
 
-.contact form input[type="text"]{
+#map {
+	height: 50vh;
+	width: 55vh;
+	z-index: -1;
+}
+
+.contact form {
+	background: #333;
+	padding: 20px;
+}
+
+.contact form input[type="text"] {
 	width: 50%;
 	height: 30px;
 }
 
-.contact form textarea{
+.contact form textarea {
 	width: 50%;
 	height: 100ox;
 }
@@ -17,11 +28,51 @@
 	width: 50%;
 	padding: 10px 0;
 	border: 0;
-	background: #BA907A;
+	background: #6DDB07;
 	color: white;
 }
 
 .contact form label {
-	text-transform: uppercase;
 	color: white;
+}
+
+
+@media(max-width:1200px) {
+	#map {
+		height: 40vh;
+		width: 45vh;
+		z-index: -1;
+	}
+}
+
+@media(max-width:1024px) {
+	#map {
+		height: 25vh;
+		width: 30vh;
+		z-index: -1;
+	}
+
+	.contact {
+		font-size: .9rem;
+	}
+
+	.contact form input[type="text"] {
+		width: 85%;
+		height: 20px;
+	}
+
+	.contact form textarea {
+		width: 85%;
+		height: 100px;
+	}
+
+	.contact form button {
+		width: 30%;
+		padding: 10px 0;
+		border: 0;
+		background: #6DDB07;
+		color: white;
+		font-weight: 700;
+	}
+
 }

@@ -8,5 +8,9 @@
 }
 
 #page p {
-	font-size:.9rem;
+	font-size: .9rem;
+}
+
+#page .gallery_text {
+	text-align: center
 }

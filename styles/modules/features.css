@@ -27,28 +27,28 @@
 }
 
 @media(max-width:740px) {
-	
+
 	#features h2 {
-	font-size: 1.3rem;
-	margin: 30px 0;
-	color: #595C53;
-}
-	
-	#features  p {
-	font-size: .9rem;
-	color: #595C53;
-	margin: 0;
-	margin-bottom: 30px;
-}
-	
+		font-size: 1.3rem;
+		margin: 30px 0;
+		color: #595C53;
+	}
+
+	#features p {
+		font-size: .9rem;
+		color: #595C53;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
 	.row-icons {
-	margin: 0;
-}
-	
+		margin: 0;
+	}
+
 	#features .fa {
-	font-size: 40px;
-	color: #BA907A;
-	margin: 10px;
-}
+		font-size: 40px;
+		color: #BA907A;
+		margin: 10px;
+	}
 
 }

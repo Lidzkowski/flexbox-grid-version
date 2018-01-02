@@ -1,6 +1,6 @@
 #company {
 	background-color: rgba(0, 0, 0, 0.8);
-		color: white;
+	color: white;
 	padding: 20px 0;
 	font-size: .8rem;
 }
@@ -21,6 +21,4 @@
 	color: white;
 }
 
-@media(max-width:740px) {
-	
-}
+@media(max-width:740px) {}

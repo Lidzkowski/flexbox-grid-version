@@ -1,6 +1,6 @@
 .projects ul li {
-		list-style: none;
-		padding: 10px;
+	list-style: none;
+	padding: 10px;
 }
 
 .projects ul li:nth-child(odd) {
