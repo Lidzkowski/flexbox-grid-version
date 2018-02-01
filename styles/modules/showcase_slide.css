@@ -8,9 +8,11 @@
 
 .showcase-slideshow-container .content {
 	position: absolute; /* Position the background text */
-    bottom: .8%; /* At the bottom. Use top:0 to append it to the top */
-    background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+		background: #3B3E45;
+		 /* Black background with 0.5 opacity */
+		color: #EFE6DA;
+		opacity: .9; /* Grey text */
     width: 94.4%; /* Full width */
     padding: 40px; /* Some padding */
 		text-align: center;
@@ -22,7 +24,7 @@
 	.showcase-slideshow-container .content {
 		font-size: .7rem;
 		padding: 10px;
-		bottom: 2%;
+		bottom: -5%;
 	}
 }
 

@@ -7,9 +7,10 @@
 header {
 	position: relative;
 	width: 100%;
-	background: #333;
+	background: #3B3E45;
 	text-transform: ;
-	height: auto;
+	height: 33%;
+	max-width: 1200px;
 }
 
 .sticky {
@@ -17,16 +18,16 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	opacity: .8;
+	opacity: .9;
 	z-index: 5;
+	
 }
 
 .logo {
-	font-family: 'Roboto', sans-serif;
 	position: relative;
 	z-index: 123;
 	font-size: 2rem;
-	color: white;
+	color: #EFE6DA;
 	float: left;
 	width: 55%;
 	text-align: center;
@@ -35,13 +36,10 @@ header {
 	letter-spacing: .5rem
 }
 
-.logo a {
-	color: #6DDB07;
-}
 
 nav {
 	position: relative;
-	width: 980px;
+	width: 600px;
 	margin: 0 auto;
 }
 
@@ -56,8 +54,9 @@ nav {
 	display: block;
 	position: relative;
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box
+	box-sizing: border-box;
 }
+
 
 #cssmenu:after,
 #cssmenu > ul:after {
@@ -74,8 +73,7 @@ nav {
 }
 
 #cssmenu {
-	font-family: sans-serif;
-	background: #333
+	background: #3B3E45;
 }
 
 #cssmenu > ul > li {
@@ -100,7 +98,7 @@ nav {
 #cssmenu ul li.active:hover,
 #cssmenu ul li.active,
 #cssmenu ul li.has-sub.active:hover {
-	background: #448D00!important;
+	background: #AA8D75!important;
 	-webkit-transition: background .3s ease;
 	transition: background .3s ease;
 }
@@ -147,7 +145,7 @@ nav {
 	height: 0;
 	-webkit-transition: all .25s ease;
 	-ms-transition: all .25s ease;
-	background: #333;
+	background: #3B3E45;
 	transition: all .25s ease
 }
 
@@ -217,7 +215,7 @@ nav {
 
 #cssmenu ul ul li.has-sub:hover,
 #cssmenu ul li.has-sub ul li.has-sub ul li:hover {
-	background: #363636;
+	background: #A88C76;
 }
 
 #cssmenu ul ul ul li.active a {
@@ -260,7 +258,7 @@ nav {
 		border-top: 1px solid #444
 	}
 	#cssmenu ul li:hover {
-		background: #363636;
+		background: #3B3E45;
 	}
 	#cssmenu ul ul li,
 	#cssmenu li:hover > ul > li {
@@ -278,7 +276,7 @@ nav {
 		padding-left: 25px
 	}
 	#cssmenu ul ul li {
-		background: #333!important;
+		background: #3B3E45!important;
 	}
 	#cssmenu ul ul li:hover {
 		background: #363636!important

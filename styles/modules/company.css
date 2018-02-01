@@ -1,6 +1,7 @@
 #company {
-	background-color: rgba(0, 0, 0, 0.8);
-	color: white;
+	background-color:#3B3E45;
+	opacity: .99;
+	color: #EFE6DA;
 	padding: 20px 0;
 	font-size: .8rem;
 }
@@ -18,7 +19,7 @@
 
 #company a {
 	text-decoration: none;
-	color: white;
+	color: #EFE6DA;
 }
 
 @media(max-width:740px) {}

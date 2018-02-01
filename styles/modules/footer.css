@@ -1,20 +1,21 @@
 #main-footer {
-	background: rgba(0, 0, 0, 0.9);
-	color: white;
-	font-size: .7rem;
+	
+	color: black;
+	font-size: 1rem;
 	height: 4vh;
+	font-weight: bold;
 }
 
 #main-footer a {
 	text-decoration: none;
-	color: aquamarine;
+	color: black;
 }
 
 @media(max-width:740px) {
 
 	#main-footer {
 		background: rgba(0, 0, 0, 0.9);
-		color: white;
+		color: black;
 		font-size: .8rem;
 		height: 8vh;
 	}

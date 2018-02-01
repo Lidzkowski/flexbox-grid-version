@@ -4,11 +4,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Przedpokój i garderoba</title>
-	<link rel="stylesheet" href="../styles/flexboxgrid.css">
+	<title>Przedpokój i Garderoba</title>
+	<!-- STYLES -->
 	<link rel="stylesheet" href="../styles/styles.css">
+	<link rel="stylesheet" href="//unpkg.com/flexboxgrid2">
+	<!-- FoNT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=latin-ext" rel="stylesheet">
 	<!-- FONT AWESOME -->
 	<script src="https://use.fontawesome.com/234b9f7dec.js"></script>
+	<!-- jQUERY	-->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -16,55 +21,57 @@
 	<!-- HEADER -->
 	<header id="main-header">
 		<div class="container">
-			<div class="row end-md end-lg middle-xs middle-sm middle-md middle-lg center-xs">
-				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-					<h1 class="logo"><span class="primary-text">Zakład</span>OMeble</h1>
+			<div class="row middle-xs start-xs">
+				<div class="col-xs-2 col-sm-4 col-md-4 col-lg-4">
+					<h1 class="logo">ZAKŁAD o meble</h1>
 				</div>
-				<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-					<nav id="navbar">
+				<div class="col-xs-10 col-sm-8 col-md-18 col-lg-8">
+					<nav id='cssmenu'>
+						<div id="head-mobile"></div>
+						<div class="button"></div>
 						<ul>
-							<li><a href="../index.html">Wejście</a></li>
-							<li><a href="../office.html">Meble biurowe <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+							<li><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i> Start</a></li>
+							<li><a href="../office.html">Meble biurowe </a>
 								<ul>
-									<li><a href="../office/office_1.html">Meble Pracownicze <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="../office/office_1.html">Meble Pracownicze </a>
 										<ul>
-											<li><a href="../../office/evro.html">Evro</a></li>
-											<li><a href="../../office/idea.html">Idea</a></li>
-											<li><a href="../../office/primus.html">Primus</a></li>
-											<li><a href="../../office/toro.html">Toro</a></li>
-											<li><a href="../../office/victor.html">Victor</a></li>
+											<li><a href="office/evro.html">Evro</a></li>
+											<li><a href="office/idea.html">Idea</a></li>
+											<li><a href="office/primus.html">Primus</a></li>
+											<li><a href="office/toro.html">Toro</a></li>
+											<li><a href="office/victor.html">Victor</a></li>
 										</ul>
 									</li>
-									<li><a href="../office/office_2.html">Meble gabinetowe <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="../office/office_2.html">Meble gabinetowe</a>
 										<ul>
-											<li><a href="../../office/edo.html">Edo</a></li>
-											<li><a href="../../office/horus.html">Horus</a></li>
-											<li><a href="../../office/linus.html">Linus</a></li>
-											<li><a href="../../office/status_owalny.html">Status owalny</a></li>
-											<li><a href="../../office/status_prosty.html">Status prosty</a></li>
+											<li><a href="office/edo.html">Edo</a></li>
+											<li><a href="office/horus.html">Horus</a></li>
+											<li><a href="office/linus.html">Linus</a></li>
+											<li><a href="office/status_owalny.html">Status owalny</a></li>
+											<li><a href="office/status_prosty.html">Status prosty</a></li>
 										</ul>
 									</li>
-									<li><a href="../office/office_3.html">Meble do recepcji <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="../office/office_3.html">Meble do recepcji </a>
 										<ul>
-											<li><a href="../../office/antra.html">Antra</a></li>
-											<li><a href="../../office/aristo.html">Aristo</a></li>
-											<li><a href="../../office/salva.html">Salva</a></li>
-											<li><a href="../../office/sorte.html">Sorte</a></li>
-											<li><a href="../../office/victor_rec.html">Victor</a></li>
+											<li><a href="office/antra.html">Antra</a></li>
+											<li><a href="office/aristo.html">Aristo</a></li>
+											<li><a href="office/salva.html">Salva</a></li>
+											<li><a href="office/sorte.html">Sorte</a></li>
+											<li><a href="office/victor_rec.html">Victor</a></li>
 										</ul>
 									</li>
-									<li><a href="../office/office_4.html">Meble hotelowe <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+									<li><a href="../office/office_4.html">Meble hotelowe </a>
 										<ul>
-											<li><a href="../../office/linus_hotel.html">Linus</a></li>
-											<li><a href="../../office/xenia.html">Xenia</a></li>
+											<li><a href="office/linus_hotel.html">Linus</a></li>
+											<li><a href="office/xenia.html">Xenia</a></li>
 										</ul>
 									</li>
 								</ul>
 							</li>
-							<li class="current"><a href="../house.html">Dom | Mieszkanie <i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+							<li class="active"><a href="../house.html">Dom | Mieszkanie </a>
 								<ul>
 									<li><a href="house_1.html">Kuchnia</a></li>
-									<li class="current"><a href="house_2.html">Przedpokój | Garderoba</a></li>
+									<li class="active"><a href="house_2.html">Przedpokój | Garderoba</a></li>
 									<li><a href="house_3.html">Salon</a></li>
 									<li><a href="house_4.html">Sypialnia</a></li>
 									<li><a href="house_5.html">Łazienka</a></li>
@@ -79,78 +86,73 @@
 		</div>
 	</header>
 
+	<!-- SUBHEADER -->
 	<section id="subheader">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<h1>Dom | Mieszkanie > Przedpokój i garderoba</h1>
+			<div class="row middle-xs">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 subh">
+					<h1>Przedpokój i Garderoba</h1>
 					<hr>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempore culpa laboriosam debitis saepe dolore iusto sint voluptates similique minima, laudantium beatae maxime numquam perferendis maiores, enim incidunt deleniti. Ducimus iste dolore at! Enim error itaque, voluptatum saepe tenetur, tempora consequatur quaerat officiis maxime minima? Ad corrupti eius, modi, ratione expedita provident assumenda facilis velit mollitia fugit, repellendus beatae obcaecati nobis ea molestiae officia. Nulla sed, nesciunt voluptatum delectus, fugit quod numquam. Laudantium labore dicta sed excepturi, autem nisi repellendus?</p>
-					<hr>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil tempore culpa laboriosam debitis saepe dolore iusto sint voluptates similique minima, laudantium beatae maxime numquam perferendis maiores, enim incidunt deleniti. Ducimus iste dolore at! Enim error itaque, voluptatum saepe tenetur, tempora consequatur quaerat officiis maxime minima?</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 subh">
+					<img src="../images/wardrobe.jpg" alt="">
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- MAIN PAGE -->
-	<section id="page" class="house_2">
+	<section id="page" class="house_1">
 		<div class="container">
 			<div class="row center-xs start-sm start-md start-lg">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 					<div class="box">
 						<a href="#"><img class="small" src="http://lorempixel.com/400/200/business" alt=""></a>
-						<h3>Przedpokój 1</h3>
+						<h3>Przedpokój i Garderoba 1</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, accusantium.</p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 					<div class="box">
 						<a href="#"><img class="small" src="http://lorempixel.com/400/200/business" alt=""></a>
-						<h3>Garderoba 1</h3>
+						<h3>Przedpokój i Garderoba 2</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, accusantium.</p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 					<div class="box">
 						<a href="#"><img class="small" src="http://lorempixel.com/400/200/business" alt=""></a>
-						<h3>Przedpokój 2</h3>
+						<h3>Przedpokój i Garderoba 3</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, accusantium.</p>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 					<div class="box">
 						<a href="#"><img class="small" src="http://lorempixel.com/400/200/business" alt=""></a>
-						<h3>Garderoba 2</h3>
+						<h3>Przedpokój i Garderoba 4</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, accusantium.</p>
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 
 	<!-- COMPANY -->
 	<section id="company">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-4 col-md-4 col-slg-4">
-					<h4>Contact Us</h4>
+			<div class="row center-xs start-sm">
+				<div class="col-xs-12 col-sm-6">
+					<h4>Kontakt:</h4>
 					<ul>
-						<li><i class="fa fa-phone"></i>xx xxx xxx xxx</li>
-						<li><i class="fa fa-envelope"></i>biuro@zakladomeble.pl</li>
-						<li><i class="fa fa-map"></i>Piździałkowice</li>
+						<li><i class="fa fa-phone"></i> +48 660 672 585</li>
+						<li><i class="fa fa-phone"></i> +48 662 058 394</li>
+						<li><i class="fa fa-envelope"></i> biuro@zakladomeble.pl</li>
+						<li><i class="fa fa-map"></i> Ul. Gałczyńskiego 18, 54-220 Wrocław</li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4 col-slg-4">
-					<h4>About Us</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut facilis iusto modi sequi officia ad temporibus tempora</p>
-				</div>
-				<div class="col-xs-12 col-sm-4 col-md-4 col-slg-4">
-					<h4>Newsletter</h4>
-					<p>Lorem ipsum dolor sit amet</p>
-					<form>
-						<input type="text" name="email" placeholder="Enter Email">
-						<button type="submit" name="button">Submit</button>
-					</form>
+					<div class="col-xs-12 col-sm-6">
+					<h4>Na skróty:</h4>
+					<p><a href="office.html">biuro</a> | <a href="office/office_1.html">pracownicze</a> | <a href="office/office_2.html">gabinet</a> | <a href="office/office_3.html">recepcja</a> | <a href="office/office_4.html">hotelowe</a> | <a href="house.html">dom</a> | <a href="house/house_1.html">kuchnia</a> | <a href="house/house_2.html">przedpokój</a> | <a href="house/house_3.html">salon</a> | <a href="house/house_4.html">sypialnia</a> | <a href="house/house_5.html">łazienka</a></p>
 				</div>
 			</div>
 		</div>
@@ -159,11 +161,17 @@
 	<!-- FOOTER -->
 	<footer id="main-footer">
 		<div class="container">
-			<div class="row center-xs center-sm center-md center-lg">
+			<div class="row center-xs middle-xs">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
-				<p>Copyrights &copy; | Zakład O Meble</p>
+				<p>&copy; 2017 Zakład O Meble | All Rights Reserved. | Realizacja <a href="http://lukaszidzkowski.pl">Łukasz Idźkowski</a> </p>
+				<p></p>
 			</div>
 		</div>
 	</footer>
+	<!--CSS MENU SCRIPT-->
+	<script src="../scripts/cssmenu.js"></script>
+	<!-- STICKY HEADER	-->
+	<script src="../scripts/sticky.js"></script>
 </body>
+
 </html>
