@@ -4,6 +4,9 @@
 	color: #EFE6DA;
 	padding: 20px 0;
 	font-size: .8rem;
+	-webkit-box-shadow: 10px 13px 42px -1px rgba(0,0,0,0.38);
+-moz-box-shadow: 10px 13px 42px -1px rgba(0,0,0,0.38);
+box-shadow: 10px 13px 42px -1px rgba(0,0,0,0.38);
 }
 
 #company h4 {
