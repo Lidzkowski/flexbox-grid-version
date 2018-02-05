@@ -6,9 +6,9 @@
 
 header {
 	position: relative;
-	width: 100%;
+	
 	background: #3B3E45;
-	text-transform: ;
+	
 	height: 33%;
 	max-width: 1200px;
 }
@@ -74,6 +74,7 @@ nav {
 
 #cssmenu {
 	background: #3B3E45;
+	width: auto;
 }
 
 #cssmenu > ul > li {
@@ -152,11 +153,13 @@ nav {
 #cssmenu ul ul li:hover {}
 
 #cssmenu li:hover > ul {
+	
 	left: auto
 }
 
 #cssmenu li:hover > ul > li {
-	height: 35px
+	height: 35px;
+	
 }
 
 #cssmenu ul ul ul {
@@ -181,7 +184,8 @@ nav {
 
 #cssmenu ul ul li:hover > a,
 #cssmenu ul ul li a:hover {
-	color: #fff
+	color: #fff;
+	background: #AA8D75
 }
 
 #cssmenu ul ul li.has-sub > a:after {

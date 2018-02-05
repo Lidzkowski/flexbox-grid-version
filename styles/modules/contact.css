@@ -1,12 +1,19 @@
+#subheader {
+	position: relative;
+}
+
 #subheader ul {
 	list-style: none;
 	padding: 20px;
 }
 
 #map {
-	height: 50vh;
-	width: 55vh;
-	z-index: -1;
+	position: absolute;
+	height: 40vh;
+	width: 50vh;
+	bottom: 0;
+	left: 50;
+	margin-bottom: 20px;
 }
 
 .contact form {
@@ -49,7 +56,7 @@
 	#map {
 		height: 25vh;
 		width: 30vh;
-		z-index: -1;
+		
 	}
 
 	.contact {

@@ -2,8 +2,8 @@
 @import "modules/main.css";
 @import "modules/common_classes.css";
 /* HEADER */
-
 @import 'modules/subheader.css';
+@import 'modules/tooltip.css';
 /* NAVBAR */
 @import 'modules/cssmenu.css';
 /* SHOWCASE */

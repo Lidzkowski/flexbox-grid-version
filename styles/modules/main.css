@@ -1,5 +1,5 @@
 html {
-	background: url(../../images/wood_12.jpg);
+	background: url(../../images/wood_14.jpg);
 }
 
 body {
@@ -9,7 +9,6 @@ body {
 	margin: 50px auto;
 	padding: 0;
 	max-width: 1200px;
-	text-align: center;
 }
 
 img {
@@ -19,5 +18,11 @@ img {
 @media(max-width:740px) {
 	body {
 		margin: 10px;
+	}
+}
+
+@media(max-width:1200px) {
+	body {
+		margin: 20px;
 	}
 }

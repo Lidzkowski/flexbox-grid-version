@@ -1,10 +1,12 @@
 
 #subheader {
+	z-index: -1;
 	background: rgba(255,255,255,1);
 	-webkit-box-shadow: 10px 13px 42px -1px rgba(0,0,0,0.38);
 	-moz-box-shadow: 10px 13px 42px -1px rgba(0,0,0,0.38);
 	box-shadow: 10px 13px 42px -1px rgba(0,0,0,0.38);
 	margin-bottom: 20px;
+	height: 60vh;
 }
 
 #subheader .row {

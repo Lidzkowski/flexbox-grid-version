@@ -3,7 +3,8 @@
   max-width: 100%;
   position: relative;
   margin: 50px auto;
-	padding-top: 50px;
+  
+  height: auto;
 }
 
 .mySlides {
